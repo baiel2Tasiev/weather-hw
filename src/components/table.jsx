@@ -20,6 +20,7 @@ const Table = ({data}) => {
                 <td>{data.main.temp}</td>
                 
             </tr>
+            
             <tr>
                 <td>description</td>
                 <td>{data.weather[0].description}</td>

@@ -6,6 +6,7 @@
 
 body{
     background-image: url('./photo_2024-07-03_19-52-42.jpg');
+    background-size: cover;
 
 }
 
@@ -16,10 +17,22 @@ body{
 .form input{
     width: 80%;
     padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    
 }
 .form button{
     width: 20%;
     padding: 10px;
+    background-color: black;
+    color:white ;
+    border: none;
+    transition: 1s;
+}
+.form button:hover{
+    background-color: #fff;
+    color: black;
 }
 
 
